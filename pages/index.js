@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Slider from '../component/Slider'
 import styles from '../styles/Home.module.css'
 
 
@@ -12,7 +13,7 @@ export default function Home() {
         <meta name="description" content="Best Restaurant in town" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Homepage
+      <Slider></Slider>
 
     </div>
   )
